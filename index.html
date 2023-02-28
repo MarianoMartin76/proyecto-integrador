@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Online - Trabajo integrador</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- referencio al .css que descargo del sitio ofical de Bootstrap -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- referencio al .css que descargo del sitio ofical de FontAwesome -->
+
+
+</head>
+
+<body class="bg-light">
+    <!-- considero una buena práctica separar las distintas secciones para organizar mejor el código (este cmentario es para el evaluador, claramente no se inclucuye en el código implementado en producción) -->
+    <!-- comienzo de la barra de navegación -->
+    <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
+        <div class="container-lg">
+            <a class="navbar-brand text-danger fw-bold fs-4" href="#">CV Online - Trabajo integrador</a>
+            <div class="dropdown">
+                <button class="btn btn-secondary btn-danger px-3" type="button" id="dropdownMenuButton"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="#home">Home</a></li>
+                    <li><a class="dropdown-item" href="#about">Sobre Mi</a></li>
+                    <li><a class="dropdown-item" href="#skills">Habilidades</a></li>
+                    <li><a class="dropdown-item" href="#experience">Experiencia y educación</a></li>
+                    <li><a class="dropdown-item" href="#testimonials">Andan diciendo</a></li>
+                    <li><a class="dropdown-item" href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- fin de la barra de navegación -->
+
+    <!-- comienzo sección Home-->
+    <section class="home py-5" id="home">
+        <div class="container-lg">
+            <div class="row min-vh-100 align-items-center align-content-center">
+                <div class="col-md-6  mt-5 mt-md-0">
+                    <div class="home-img text-center">
+                        <img src="img/profile-ph.png" class="rounded-circle mw-100" alt="yo!">
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5 mt-md-0">
+                    <div class="home-text">
+                        <p class="text-muted mb-1">Hola, soy</p>
+                        <h1 class="text-danger text-uppercase fs-f1 fw-bold">Desarrollador Web</h1>
+                        <H2 class="fs-4">Juan Pérez</H2>
+                        <p class="mt-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+                            minima deleniti laborum placeat illum iste omnis voluptate cumque ducimus beatae?</p>
+                        <a href="#about" class="btn btn-secondary px-3 mt-3">Sobre Mí</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- fin sección Home -->
+
+    <!-- comienzo de la sección Sobre Mi -->
+    <section class="about py-5" id="about">
+        <div class="container-lg">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Sobre Mí</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="about-text">
+                        <h3 class="fs-4 mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, magni?
+                            Velit ullam
+                            consequuntur cupiditate est, eum perferendis qui, quasi soluta odio ab quidem, impedit
+                            placeat distinctio totam cumque voluptate possimus harum exercitationem recusandae.
+                            Reprehenderit corrupti dignissimos, excepturi cum provident dolorem fuga repudiandae dolore,
+                            optio quasi possimus similique, ullam repellat sapiente.</p>
+                    </div>
+                    <div class="row text-center text-uppercase my-3">
+                        <div class="col-sm-4">
+                            <div class="fact-item">
+                                <h4 class="fs-1 fw-bold">1</h4>
+                                <p class="text-muted">Proyecto completado :)</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="fact-item">
+                                <h4 class="fs-1 fw-bold">1</h4>
+                                <p class="text-muted">Cliente contento</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="fact-item">
+                                <h4 class="fs-1 fw-bold">100%</h4>
+                                <p class="text-muted">Comentarios positivos</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 d-flex align-items-center">
+                            <a href="" class="btn px-3 btn-danger me-5">Descargar CV</a>
+                            <div class="social-links">
+                                <a href="#" class="text-dark me-2"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="text-dark me-2"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="text-dark me-2"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="text-dark me-2"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5 mt-md-0">
+                    <div class="skill-item mb-4">
+                        <h3 class="fs-6">HTML</h3>
+                        <div class="progress" style="height: 5px;">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 25%;"
+                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-4">
+                        <h3 class="fs-6">JAVASCRIPT</h3>
+                        <div class="progress" style="height: 5px;">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 30%;"
+                                aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-4">
+                        <h3 class="fs-6">CSS</h3>
+                        <div class="progress" style="height: 5px;">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 70%;"
+                                aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <h3 class="fs-6">DEVOPS</h3>
+                        <div class="progress" style="height: 5px;">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 90%;"
+                                aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fin de la sección Sobre Mi -->
+
+    <!-- comienzo sección Habilidades -->
+    <section class="skills py-5" id="skills">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Lo que hago</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-6 col-lg-4 mb-4 ">
+                    <div class="skills-item shadow-sm p-4 rounded bg-white">
+                        <div class="icon my-3 text-danger fs-2">
+                            <i class="fas fa-code"></i> <!-- íconos -->
+                        </div>
+                        <h3 class="fs-5 py-2">Desarrollo Web</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, cumque!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="skills-item shadow-sm p-4 rounded bg-white">
+                        <div class="icon my-3 text-danger fs-2">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3 class="fs-5 py-2">QA Automation</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, cumque!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="skills-item shadow-sm p-4 rounded bg-white">
+                        <div class="icon my-3 text-danger fs-2">
+                            <i class="fas fa-infinity"></i>
+                        </div>
+                        <h3 class="fs-5 py-2">DevOps</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, cumque!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fin sección habilidades -->
+
+    <!-- inicio sección experiencia -->
+    <section class="experience py-5" id="experience">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Experiencia y Educación</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseOne">
+                            <div class="icon my-3 text-danger fs-2">
+                                <i class="fa-solid fa-user-graduate"></i>
+                            </div>
+                            <div class="container-fluid">Educación</div>
+
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                        aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                            <b>1995 - 2000 | Lorem, ipsum.</b>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt assumenda quo dolorum
+                                tempora, vitae accusantium iste, sapiente nobis, culpa alias nulla sequi adipisci
+                                molestiae quisquam beatae. Ipsa, fugit corrupti. Similique!
+                            </p>
+                            <b>2000 - 2002 | Lorem ipsum dolor sit amet consectetur.</b>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam exercitationem odio
+                                sint amet, dolores veritatis suscipit ducimus? Officia eveniet quae suscipit sint
+                                reiciendis dolore dignissimos delectus ab esse, assumenda tenetur omnis natus nisi
+                                provident eaque non voluptatem autem voluptate repellendus in quis perferendis. Iste
+                                doloribus officia enim recusandae assumenda odit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo">
+                            <div class="icon my-3 text-danger fs-2">
+                                <i class="fa-solid fa-laptop-file"></i>
+                            </div>
+                            <div class="container-fluid">Experiencia</div>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                            <b>2000 - 2006 | Lorem, ipsum.</b>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, sapiente! Facere,
+                                aperiam quisquam officia molestias magni laborum soluta ipsum iusto dolores rem labore
+                                modi quidem ratione tempora vel, cum temporibus! Eos ducimus dolore dolorum quam dolorem
+                                quisquam minima dolores, iusto voluptate dignissimos. Iusto cumque rerum necessitatibus
+                                ratione voluptatem incidunt aut atque? Unde, libero? Cum repellat eos officia alias quas
+                                error.
+                            </p>
+                            <b>2006 - 2010 | Lorem, ipsum rioss.</b>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam exercitationem odio
+                                sint amet, dolores veritatis suscipit ducimus? Officia eveniet quae suscipit sint
+                                reiciendis dolore dignissimos delectus ab esse, assumenda tenetur omnis natus nisi
+                                provident eaque non voluptatem autem voluptate repellendus in quis perferendis. Iste
+                                doloribus officia enim recusandae assumenda odit. Lorem ipsum dolor sit amet,
+                                consectetur adipisicing elit. Laudantium, culpa.
+                            </p>
+                            <b>2010 - 2018 | Lorem, ipsum dolor sit amet consectetur adipisicing..</b>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam exercitationem odio
+                                sint amet, dolores veritatis suscipit ducimus? Officia eveniet quae suscipit sint
+                                reiciendis dolore <i>assumenda tenetur omnis natus nisi</i>, assumenda tenetur omnis
+                                natus nisi
+                                provident eaque non voluptatem autem voluptate repellendus in quis perferendis. Iste
+                                doloribus officia enim recusandae assumenda odit. Lorem ipsum dolor sit amet,
+                                consectetur adipisicing elit. Laudantium, culpa.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree">
+                            <div class="icon my-3 text-danger fs-2">
+                                <i class="fa-solid fa-award"></i>
+                            </div>
+                            <div class="container-fluid">Certificaciones y cursos</div>
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                            <ul class="list-group">
+                                <li class="list-group-item"><em>2000 | Lorem, ipsum.</em></li>
+                                <li class="list-group-item"><em>2003 | Lorem ipsum dolor sit.</em></li>
+                                <li class="list-group-item"><em>2020 | Lorem, ipsum.</em></li>
+                                <li class="list-group-item"><em>2021 | Lorem, ipsum.</em></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fin sección experiencia -->
+
+    <!-- inicio sección Freelance -->
+    <section class="freelance bg-danger py-5">
+        <div class="container-lg py-4   ">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <p class="text-light fs-5">Necesitas talento?</p>
+                    <h2 class="fs-1 text-white mb-4">Estoy disponible para proyectos Freelance!</h2>
+                    <a href="#contact" class="btn btn-outline-light">Contactame!</a>
+                </div>
+            </div>
+    </section>
+    <!-- fin sección Freelance -->
+
+    <!-- inicio sección testimonios --> <!-- datos de https://randomuser.me/ -->
+    <section class="testimonios py-5" id="testimonials">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Dicen de Mi...</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-xl-7">
+                    <div id="carousel1" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0"
+                                class="active bg-danger" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"
+                                class="bg-danger"></button>
+                            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"
+                                class="bg-danger"></button>
+                        </div>
+                        <!-- defino el inicio y el fin de un item para implementar el carrousel -->
+                        <div class="carousel-inner">
+                            <!-- inicio de un item de testimonios -->
+                            <div class="testi-item carousel-item active bg-white shadow-sm rounded p-4 mb-5">
+                                <div class="autor-info d-flex align-items-center">
+                                    <img src="https://randomuser.me/api/portraits/women/56.jpg"
+                                        class="img-thumbnail rounded-circle" alt="autor img">
+                                    <div class="autor ms-3">
+                                        <h3 class="fs-6 mb-1">Gloria Hamilton</h3>
+                                        <p class="text-muted m-0">Manager</p>
+                                    </div>
+                                </div>
+                                <p class="text-muted mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Consectetur,
+                                    aliquam hic! Velit facere quis totam tempore beatae, expedita enim esse.</p>
+                                <div class="rating text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <!-- fin de un item de testimonios -->
+                            <!-- inicio de un item de testimonios -->
+                            <div class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
+                                <div class="autor-info d-flex align-items-center">
+                                    <img src="https://randomuser.me/api/portraits/men/4.jpg"
+                                        class="img-thumbnail rounded-circle" alt="autor img">
+                                    <div class="autor ms-3">
+                                        <h3 class="fs-6 mb-1">Gabriel Hunt</h3>
+                                        <p class="text-muted m-0">CEO</p>
+                                    </div>
+                                </div>
+                                <p class="text-muted mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Consectetur,
+                                    aliquam hic! Velit facere quis totam tempore beatae, expedita enim esse.</p>
+                                <div class="rating text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <!-- fin de un item de testimonios -->
+                            <!-- inicio de un item de testimonios -->
+                            <div class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
+                                <div class="autor-info d-flex align-items-center">
+                                    <img src="https://randomuser.me/api/portraits/men/43.jpg"
+                                        class="img-thumbnail rounded-circle" alt="autor img">
+                                    <div class="autor ms-3">
+                                        <h3 class="fs-6 mb-1">Luke Ortiz</h3>
+                                        <p class="text-muted m-0">DevOps Engineer</p>
+                                    </div>
+                                </div>
+                                <p class="text-muted mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Consectetur,
+                                    aliquam hic! Velit facere quis totam tempore beatae, expedita enim esse.</p>
+                                <div class="rating text-warning">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <!-- fin de un item de testimonios -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fin sección testimonios -->
+
+    <!-- inicio sección de contacto -->
+    <section class="contacto py-5" id="contact">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Contacto</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="contact-item d-flex mb-3">
+                        <div class="icon fs-4 text-danger">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5">Email</h3>
+                            <p class="text-muted">juanperez@mail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item d-flex mb-3">
+                        <div class="icon fs-4 text-danger">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5">Teléfono</h3>
+                            <p class="text-muted">054 0303-456</p>
+                        </div>
+                    </div>
+                    <div class="contact-item d-flex mb-3">
+                        <div class="icon fs-4 text-danger">
+                            <i class="fa fa-map-marker-alt"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5">Oficinas</h3>
+                            <p class="text-muted">Av. Libertador 5675 | 4to. A</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="contact-form">
+                        <form>
+                            <div class="row">
+                                <div class="col-lg-6 mb-4">
+                                    <input type="text" placeholder="Nombre" class="form-control form-control-lg fs-6 border-0 shadow-sm" >
+                                </div>
+                                <div class="col-lg-6 mb-4">
+                                    <input type="email" placeholder="Mail" class="form-control form-control-lg fs-6 border-0 shadow-sm" >
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 mb-4">
+                                    <input type="text" placeholder="Asunto" class="form-control form-control-lg fs-6 border-0 shadow-sm -4" >
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 mb-4">
+                                    <textarea rows="5" placeholder="Mensaje" class="form-control form-control-lg fs-6 border-0 shadow-sm -4"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <button type="submit" class="btn btn-danger px-3">Enviar</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fin sección de contacto -->
+
+    <!-- inicio footer -->
+    <div class="footer border-top py-4">
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="m-0 text-center text-muted"> 👋 </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- fin footer -->
+
+    <script src="js/bootstrap.bundle.min.js"></script> 
+</body>
+
+</html>
